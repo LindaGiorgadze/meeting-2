@@ -9,6 +9,12 @@ console.log(text)
 
 
 
+// clickBtn.addEventListener('click', (event) => {
+//     text.style.display = 'block';
+// })
+
 clickBtn.addEventListener('click', (event) => {
-    text.style.display = 'block';
+    //text-ის ნაცვლად შეგიძიათ ბურგერის ნავიგაციის ცვლადი ჩასვათ
+    text.style.display = text.style.display === 'block' ? '' : 'block';;
 })
+
